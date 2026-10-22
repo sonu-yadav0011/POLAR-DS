@@ -1,6 +1,10 @@
 env/
 .venv/
+.venv*/
 venv/
+node_modules/
+dist/
+
 
 __pycache__/
 *.py[cod]
@@ -16,6 +20,8 @@ htmlcov/
 
 .env
 .env.*
+!.env.example
+!**/.env.example
 .vscode/
 
 .DS_Store
